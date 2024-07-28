@@ -1,5 +1,12 @@
 <script>
+	import { SvelteUIProvider } from '@svelteuidev/core';
+	import { TypographyProvider } from '@svelteuidev/core';
+
 	import '../app.css';
 </script>
 
-<slot></slot>
+<SvelteUIProvider>
+	<TypographyProvider>
+		<slot></slot>
+	</TypographyProvider>
+</SvelteUIProvider>

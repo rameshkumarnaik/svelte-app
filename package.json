@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-netlify": "^4.3.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@tailwindcss/typography": "^0.5.13",
@@ -33,5 +34,14 @@
 		"typescript-eslint": "^8.0.0-alpha.20",
 		"vite": "^5.0.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@svelteuidev/composables": "^0.15.7",
+		"@svelteuidev/core": "^0.15.7",
+		"@svelteuidev/dates": "^0.15.7",
+		"@svelteuidev/motion": "^0.15.7",
+		"@svelteuidev/preprocessors": "^0.15.7",
+		"@svelteuidev/prism": "^0.15.7",
+		"dayjs": "^1.11.12"
+	}
 }
